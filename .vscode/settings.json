@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/08ace366-5dd6-43a4-a09e-39133b49d18c/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/wellbeingg",
+    "appService.deploySubpath": "."
+}

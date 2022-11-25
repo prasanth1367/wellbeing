@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="/static/assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="/static/assets/img/favicon.png">
+  <title>
+    WellBeing
+  </title>
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+  <!-- Nucleo Icons -->
+  <link href="/static/assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="/static/assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link id="pagestyle" href="/static/assets/css/material-kit.css?v=3.0.0" rel="stylesheet" />
+</head>
+
+<body class="index-page bg-gray-200">
+
+{% include 'includes/navigation.html' %}
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
+
+<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="{% static '/assets/img/walk.jpg' %}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Exercise</h5>
+      <p class="card-text">Go for a 40-minute walk five times a week and do three days of resistance workout. To reduce insulin resistance, you must do some resistance exercise like stretching and weights. Walking is an aerobic exercise where oxygen is used and that helps in building your stamina.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="{% static '/assets/img/sleep.jpg' %}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Sleep</h5>
+      <p class="card-text">Get adequate sleep: One should get at least six hours of sleep. If you don't get adequate sleep, your whole system will be disturbed and that has a great impact on your hormones.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="{% static '/assets/img/family.jpg' %}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Enjoy life</h5>
+      <p class="card-text">If you are happy, everything falls in place, including your general physical, mental and emotional wellbeing. Build a vibrant social life, spend time with family and friends, and aim for happiness. Go for annual health check-ups: It's especially critical if you are over 40.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="{% static '/assets/img/heart.jpg' %}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Healthy body,healthy heart</h5>
+      <p class="card-text">Healthy body, healthy heart: If you are generally healthy, eat well and exercise. Have no major addictions and you will then be on the road to having a healthy heart.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+  {% include 'includes/footer.html' %}
+
+  {% include 'includes/scripts.html' %}
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

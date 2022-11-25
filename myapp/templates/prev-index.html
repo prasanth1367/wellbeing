@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>TruJoy Events</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link rel="icon" href="{% static '/res/android-chrome-512x512.png' %}">
+   <link rel="apple-touch-icon" href="{% static '/res/apple-touch-icon.png' %}">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+ <link rel="stylesheet" href="{% static '/css/animate.css/animate.min.css' %}">
+  <link rel="stylesheet" href="{% static '/css/aos/aos.css' %}">
+  <link rel="stylesheet" href="{% static '/css/bootstrap/css/bootstrap.min.css' %}">
+  <link rel="stylesheet" href="{% static '/css/bootstrap-icons/bootstrap-icons.css' %}">
+  <link rel="stylesheet" href="{% static '/css/boxicons/css/boxicons.min.css' %}">
+   <link rel="stylesheet" href="{% static '/css/glightbox/css/glightbox.min.css' %}">
+  <link rel="stylesheet" href="{% static '/css/swiper/swiper-bundle.min.css' %}">
+  <!-- Template Main CSS File -->
+  <link rel="stylesheet" href="{% static '/css/style.css' %}">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+
+
+</head>
+
+<body>
+
+
+
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-cente">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">TruJoy Events</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!--<a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.jpg" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#events">Events</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="/dashboard/">Our statistics</a></li>
+          <li><a class="nav-link scrollto" href="/registration/">Register/Login</a></li>
+
+
+        </ul>
+      </nav>
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+      <img src="{% static '/res/welcomepage.jpg' %}" alt="">
+      <div class="row">
+        <div class="col-lg-8">
+          <h1>Welcome to <span>TruJoy Events</span></h1>
+          <h2>come make memories with us..</h2>
+
+      </div>
+    </div>
+    </div>
+   </section>
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+       <div class="section-title">
+          <h2>About</h2>
+          <p>About US</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+            <div class="about-img">
+              <img src="{% static '/res/about.png' %}" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>TruJoy is one of the best event management companies that provide services like Corporate Events , Wedding Planning ,
+              Private Parties, Live concerts , Brand Promotions and social events in one stop solution to all your event management needs!.
+
+              For us what matters is first the quantity and
+              quality of work that we deliver. We are
+              passionate in doing satisfactory and
+              productive work by providing fast, reliable
+              and accurate event management solutions.
+              </h3>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Why Us</h2>
+          <p>Why Choose TruJoy</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="box" data-aos="zoom-in" data-aos-delay="100">
+              <span>01</span>
+              <h4>Experienced Team</h4>
+              <p>we have experienced team who successfully hosted many events </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="200">
+              <span>02</span>
+              <h4>Reasonable Costs</h4>
+              <p>We at TruJoy calculate each and every cost according to the customers interest</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="300">
+              <span>03</span>
+              <h4> TrustWorthy</h4>
+              <p>TruJoy has been trusted by several people on hosting many successfull events</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Events Section ======= -->
+    <section id="events" class="events">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Events</h2>
+          <p>Organize Your Events with us</p>
+        </div>
+
+        <div class="events-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="{% static '/res/event-birthday.jpg' %}" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Birthday or Private events</h3>
+                  <div class="price">
+                    <p><span>Starting Packages from Rs 7000/-</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Make your Birthdays more memorable with us!
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i>   Expertised decor staff according to the customer interest</li>
+                    <li><i class="bi bi-check-circled"></i>   At any place and at any Time!</li>
+                    <li><i class="bi bi-check-circled"></i>   At affordable Rates!</li>
+                  </ul>
+                  <p>
+                    We provide various themes too!  making your event  more fun..
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="{% static '/res/event-private.jpg' %}" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Traditional Parties</h3>
+                  <div class="price">
+                    <p><span>Starting Packages from Rs 15000/-</span></p>
+                  </div>
+                  <p class="fst-italic">
+                     We organize Marriages,Babyshowers,Half-saree or Dhothi Functions etc.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i> Beautiful Decorations with minimal cost!</li>
+                    <li><i class="bi bi-check-circled"></i> We do cateres , Make-up and hair , Dj , Mehandi and many more!!</li>
+                    <li><i class="bi bi-check-circled"></i>   Proffesional Photographers and videographers from us..</li>
+                  </ul>
+                  <p>
+                    We promise you  to make your Special Day more memorable...by making it fully entertaining!
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="{% static '/res/event-custom.jpg' %}" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Co-orporate Events</h3>
+                  <div class="price">
+                    <p><span>Starting Packages from Rs 15,000/-</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    We organize political , Car and other product launching events
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i> Events would be organized at any place</li>
+                    <li><i class="bi bi-check-circled"></i> Trustworthy </li>
+                    <li><i class="bi bi-check-circled"></i> We provide staff too!</li>
+                  </ul>
+                  <p>
+                    We have successfully organized may brand launching events , product launching events.
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Events Section -->
+
+
+    <!-- ======= Chefs Section ======= -->
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Team</h2>
+          <p>Our Team</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="100">
+              <img src="{% static '/res/dpra.png' %}" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Busam Divya Prakash</h4>
+                  <span>Web Developer</span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="200">
+              <img src="{% static '/res/lah.png' %}" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>G S Lahari</h4>
+                  <span>Web Developer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="300">
+              <img src="{% static '/res/sh.png' %}" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Sheik Sheema Farheen</h4>
+                  <span>Web Developer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Chefs Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </div>
+      </div>
+
+
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="row mt-5">
+
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Drop your Queries:</h4>
+                 <button type="submit" name="contact" onclick="location.href='{% url 'myapp:contact' %}'">Contact us</button><br>
+
+              </div>
+              <br>
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+91099999999</p>
+              </div>
+
+
+
+
+            </div>
+
+          </div>
+
+
+    </section>
+    <!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>TruJoy Events</span></strong>. All Rights Reserved
+      </div>
+    </div>
+    </div>
+  </footer>
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <script src="{% static '/css/aos/aos.js' %}"></script>
+  <script src="{% static '/css/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static '/css/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static '/css/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static '/css/php-email-form/validate.js' %}"></script>
+  <script src="{% static '/css/swiper/swiper-bundle.min.js' %}"></script>
+  <!-- Vendor JS Files -->
+
+
+
+  <!-- Template Main JS File -->
+  <script src="{% static '/js/mains.js' %}"></script>
+
+</body>
+
+</html>

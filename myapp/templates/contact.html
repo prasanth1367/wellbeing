@@ -1,0 +1,46 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="icon" href="{% static '/res/android-chrome-512x512.png' %}">
+   <link rel="apple-touch-icon" href="{% static '/res/apple-touch-icon.png' %}">
+
+    <h1>syam</h1>
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <h1 class="text-center">Contact Us</h1>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <div class="container">
+    <form  method="post">
+      {% csrf_token %}
+  <div class="form-group">
+     <label  class="fname">Your Name</label>
+      <input type="text" align="right" name="name" id="fname" class="form-control" style="width:700px" required>
+
+    <label  class="form-label">Email address</label>
+    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" style="width:700px" required>
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+
+    <label for="subject" >Subject</label>
+      <textarea name='subject' class="form-control" id="subject" style="height:200px;width:700px;" required></textarea>
+  <br>
+  <input type="submit" class="btn btn-success btn-lg mt-1 ml-4" name="submit">
+    </div>
+    </form>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
